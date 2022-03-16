@@ -28,7 +28,7 @@ class AddNoteViewController: UIViewController {
         // creates a date string that we can pass in to the database
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat =
-            "yyyy-MM-dd"
+            "yyyy-MM-dd HH:mm"
         
         let date = dateFormatter.string(from: Date())
         
